@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E66688AF224A6B45529622D3"
-               BuildableName = "libPods-rebalance.a"
+               BlueprintIdentifier = "B8E9685FE53388E4DEAFC61A"
+               BuildableName = "Pods_rebalance.framework"
                BlueprintName = "Pods-rebalance"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

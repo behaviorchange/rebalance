@@ -7,317 +7,771 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1290D50398ADDC333D6E85A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABA34AC9FDD2F480FFED8DA /* Foundation.framework */; };
-		2784CC81BAFD68F83D0817A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABA34AC9FDD2F480FFED8DA /* Foundation.framework */; };
-		393CF0000818762874449017 /* Pods-rebalanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD782B16A2BA32B02C1597A9 /* Pods-rebalanceTests-dummy.m */; };
-		68D1F669A1B2E06F1E422FE0 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DBA29DD44EEF738A46396 /* Pods-dummy.m */; };
-		73EAB768F4B4E69720E61639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABA34AC9FDD2F480FFED8DA /* Foundation.framework */; };
-		EFEB02384E777147C022800B /* Pods-rebalance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2324FA9BAB5AFACA1B6A5D6 /* Pods-rebalance-dummy.m */; };
+		0ED32E91ABC10E8F816DC6FC /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6800FA64BC8D35A860F4A4 /* Pods-dummy.m */; };
+		0F02E36FBB116AEB084F4EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */; };
+		25663D79C75758AADBF2BBD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */; };
+		3423A63AA0F0E9AD42F9FACC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72084EE1C031E06414E03DED /* SwiftyJSON.swift */; };
+		38884847546400B5B654C4BC /* Pods-rebalance-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A56E702A2DB98EF76730E /* Pods-rebalance-SwiftyJSON-dummy.m */; };
+		3946BAACC7525203C8DC32F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */; };
+		49A237CC5F938502DE92DD15 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72084EE1C031E06414E03DED /* SwiftyJSON.swift */; };
+		648B327317B229D8B9B4CDFF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72084EE1C031E06414E03DED /* SwiftyJSON.swift */; };
+		6EF28DC982AFB71FA077DDFA /* Pods-rebalanceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E035C146F1A9D722BB92AA /* Pods-rebalanceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83135060B2BA6AE66BD761BD /* Pods-rebalance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD070A825532F2DF42C9159 /* Pods-rebalance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B9A25419B9E78E9E61D3F9 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 532CAC8C61C2D9BA582CF876 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95ACE28F7C577B5BC15F6FF6 /* Pods-rebalanceTests-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B403152AEBA7AF888DC16C7 /* Pods-rebalanceTests-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B080E3A346906156C9663D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */; };
+		A174E9B4E9DB8BDEE55BCBE4 /* Pods-rebalance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6F5830D9CE1CCD1006F0F /* Pods-rebalance-dummy.m */; };
+		ACB777B7298C2C7724DF4F93 /* Pods-rebalanceTests-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2580089E2D7DF8834AC4A5 /* Pods-rebalanceTests-SwiftyJSON-dummy.m */; };
+		CFF228E80170CB0692458D91 /* Pods-rebalance-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 355758A07D9CAC431C6A9C35 /* Pods-rebalance-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E414BB9F7F81D1D788CA50CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */; };
+		EBA14AB112180BBA6B164AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */; };
+		F8058B1845B02FAAECDDEB83 /* Pods-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2604FF38013E3CED0023FB33 /* Pods-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B1C76420D38ED367EE3835 /* Pods-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AC1184AF2515B02FC25706 /* Pods-SwiftyJSON-dummy.m */; };
+		FECBD2C5D7F5F3AC6CE07236 /* Pods-rebalanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16192272FE631AE229CDB85C /* Pods-rebalanceTests-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2A060E097896EA3F1134CE2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1AA1C6471019A273731DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECC61FCDBEE96EA5F1E435D;
+			remoteInfo = "Pods-rebalance-SwiftyJSON";
+		};
+		5ACA27D0DBF837FB6959F4F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1AA1C6471019A273731DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A271983643DEA0113A3219;
+			remoteInfo = "Pods-rebalanceTests-SwiftyJSON";
+		};
+		BB0B412096FFE797DCCF656A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1AA1C6471019A273731DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2540C3B6BE12F61AD6AB396;
+			remoteInfo = "Pods-SwiftyJSON";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		012F0C4B991E47CB2EB8F5A5 /* Pods-rebalance-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rebalance-environment.h"; sourceTree = "<group>"; };
-		1394653AA8876F8DACCA373A /* Pods-rebalance-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rebalance-acknowledgements.plist"; sourceTree = "<group>"; };
-		20B7F1C96D57337E88D1CFD5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		48DFEAAC14964A89C6C19C48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		549F3854E61DEC49BCD924D9 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		78FE7873FCA0EF7DB012EA5E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A474CBEE34175FBC657A732 /* Pods-rebalance-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rebalance-resources.sh"; sourceTree = "<group>"; };
-		814274F04D1E87564E5A00C4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9260697BED4C18E3CD3008BE /* libPods-rebalance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rebalance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96979742C44C54CE827B8911 /* Pods-rebalance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalance.release.xcconfig"; sourceTree = "<group>"; };
-		97E8CD70E4685BCA4872403A /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		9ABA34AC9FDD2F480FFED8DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9C999C959CB3D0BB054D62BC /* Pods-rebalanceTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rebalanceTests-environment.h"; sourceTree = "<group>"; };
-		A48E4BF64975FEF977F33A13 /* Pods-rebalanceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rebalanceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8A0F74485439ECAF684923F /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		C2324FA9BAB5AFACA1B6A5D6 /* Pods-rebalance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rebalance-dummy.m"; sourceTree = "<group>"; };
-		C4DBC5CC0F5CF5AC340FF74E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C5DED36A6B756715D641F6B1 /* libPods-rebalanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rebalanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB31C03DA2D98E1B9EBA22DC /* Pods-rebalanceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rebalanceTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB5DBA29DD44EEF738A46396 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		CD8B61C8B802F38294509DA7 /* Pods-rebalance-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rebalance-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D454FB1D3A220596EDE791FF /* Pods-rebalanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalanceTests.release.xcconfig"; sourceTree = "<group>"; };
-		DD782B16A2BA32B02C1597A9 /* Pods-rebalanceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rebalanceTests-dummy.m"; sourceTree = "<group>"; };
-		F4E70B98667944A8FC91CE66 /* Pods-rebalanceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rebalanceTests-resources.sh"; sourceTree = "<group>"; };
-		F4FD0A76E4344EB7DDAC8DF1 /* Pods-rebalanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalanceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF83FF4E4B56B292EACEA637 /* Pods-rebalance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalance.debug.xcconfig"; sourceTree = "<group>"; };
+		08E00B28EB029A984D001062 /* Pods-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		0A6C868CE57D4962065F0316 /* Pods-rebalanceTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rebalanceTests-environment.h"; sourceTree = "<group>"; };
+		0AFC0F8C218689CF6E678AD3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		1558D76FA90D810A79007881 /* Pods-rebalanceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rebalanceTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		16192272FE631AE229CDB85C /* Pods-rebalanceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rebalanceTests-dummy.m"; sourceTree = "<group>"; };
+		2604FF38013E3CED0023FB33 /* Pods-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		29E035C146F1A9D722BB92AA /* Pods-rebalanceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rebalanceTests-umbrella.h"; sourceTree = "<group>"; };
+		3557223DC4BED1409CEA920F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		355758A07D9CAC431C6A9C35 /* Pods-rebalance-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-rebalance-SwiftyJSON-umbrella.h"; path = "../Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		3806CA0372E373C889EC486E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF5F4B269A940D095939B65 /* Pods_rebalanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rebalanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D531D14A61D9A87ED95092C /* Pods-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		4548BB2BC06EF6C2EF386807 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		466DF348BDEC116746FC544E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C393619DA6FC01715D4F45E /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		4DD95B7DB3634BFDD846EB5D /* Pods-rebalanceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rebalanceTests-frameworks.sh"; sourceTree = "<group>"; };
+		4E490E7D252D19B5906666E5 /* Pods-rebalance-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebalance-SwiftyJSON.xcconfig"; path = "../Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		50058F1863F6144D86AF05C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532CAC8C61C2D9BA582CF876 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		5494619FA9132F4690B6880F /* Pods-rebalance-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-rebalance-SwiftyJSON.modulemap"; path = "../Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		5D69EE49716D4968A97D946F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-rebalanceTests-SwiftyJSON/Info.plist"; sourceTree = "<group>"; };
+		5E21B80ACC279AF445350FE4 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		65CEF74B91F697637779AC59 /* Pods-rebalanceTests-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebalanceTests-SwiftyJSON.xcconfig"; path = "../Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		673A56E702A2DB98EF76730E /* Pods-rebalance-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-rebalance-SwiftyJSON-dummy.m"; path = "../Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		72084EE1C031E06414E03DED /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		7295ABB4349EB60CF5827A0F /* Pods-rebalanceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rebalanceTests-resources.sh"; sourceTree = "<group>"; };
+		7DE54E24CA57A3095293F647 /* Pods-rebalanceTests-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-rebalanceTests-SwiftyJSON-prefix.pch"; path = "../Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		7F6800FA64BC8D35A860F4A4 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8B1C396E2F1B4EDEC7321DBA /* Pods-rebalance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalance.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD070A825532F2DF42C9159 /* Pods-rebalance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rebalance-umbrella.h"; sourceTree = "<group>"; };
+		8DED2C082E3EB180CE516394 /* Pods-rebalance-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rebalance-frameworks.sh"; sourceTree = "<group>"; };
+		8F6F626754A0BA0D6900ADEA /* Pods-rebalance-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rebalance-environment.h"; sourceTree = "<group>"; };
+		9A7727351D56004ADA01C57C /* Pods-rebalanceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rebalanceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B403152AEBA7AF888DC16C7 /* Pods-rebalanceTests-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-rebalanceTests-SwiftyJSON-umbrella.h"; path = "../Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		A18524FDA4233F07A1CBABC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-rebalance-SwiftyJSON/Info.plist"; sourceTree = "<group>"; };
+		A33F9141753E573567B05689 /* Pods-rebalance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-rebalance.modulemap"; sourceTree = "<group>"; };
+		A4A129A2104A260F96DAE6C9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A72985711BC9710A77F184A3 /* Pods-rebalance-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rebalance-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A768C59AE1DCEBD739B358DA /* Pods-rebalanceTests-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-rebalanceTests-SwiftyJSON.modulemap"; path = "../Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		A8E0304EAE4570A48D7CFFDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B05AFFACA1DC66359509BF /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		BA2580089E2D7DF8834AC4A5 /* Pods-rebalanceTests-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-rebalanceTests-SwiftyJSON-dummy.m"; path = "../Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		BB7B442893DCE0992D6EEB0E /* Pods-rebalanceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-rebalanceTests.modulemap"; sourceTree = "<group>"; };
+		C252B957317ED6333C5829DC /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C7C7144C250D8165999960F4 /* Pods-rebalance-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rebalance-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBF6F5830D9CE1CCD1006F0F /* Pods-rebalance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rebalance-dummy.m"; sourceTree = "<group>"; };
+		CC52B60265587984D05A1B0B /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE4C33207FC0D8F090163EDD /* Pods-rebalanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5445150F56611AD1C0084CB /* Pods-rebalanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6AC1184AF2515B02FC25706 /* Pods-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		D94D310404624F30BAE5C7E5 /* Pods-rebalance-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebalance-SwiftyJSON-Private.xcconfig"; path = "../Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		E46BA4C7B33EB42703611666 /* Pods_rebalance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rebalance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57E229A2D2C4E3E84217832 /* Pods-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		E5BB68F7B6E37A2990FC53B6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7245D2BCCB86E9BA22AE1E4 /* Pods-rebalance-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rebalance-resources.sh"; sourceTree = "<group>"; };
+		E9037D01DFDFF2690D6B1CAE /* Pods-rebalance-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-rebalance-SwiftyJSON-prefix.pch"; path = "../Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		F0C8A6CCCE026BF2CB7087DA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D2F0FA51FAD6B994CC5F73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39D1C35AE4E69C96E6E7853 /* Pods-rebalance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rebalance.release.xcconfig"; sourceTree = "<group>"; };
+		F52A55E9CE7B35CE4B5CC6F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55F34E77DA30C2C66818E31 /* Pods-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		F741771FEAD3BA07D8A4E40E /* Pods-rebalanceTests-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebalanceTests-SwiftyJSON-Private.xcconfig"; path = "../Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1DFA34588FA983F39CDA1945 /* Frameworks */ = {
+		404D616369F64E029BE96F85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EAB768F4B4E69720E61639 /* Foundation.framework in Frameworks */,
+				0F02E36FBB116AEB084F4EA9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91BB7099E278FCFCD3B8A676 /* Frameworks */ = {
+		92FC2986A5E0E2EB6FAB02F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2784CC81BAFD68F83D0817A1 /* Foundation.framework in Frameworks */,
+				EBA14AB112180BBA6B164AF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A786A4CEB9DFFB612773A9C5 /* Frameworks */ = {
+		B392470735764E5BC8D296FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1290D50398ADDC333D6E85A1 /* Foundation.framework in Frameworks */,
+				3946BAACC7525203C8DC32F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBB9F6404FEC7994ED06559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25663D79C75758AADBF2BBD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC8AA730BAD8FBCCC45BFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B080E3A346906156C9663D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A6A67660582DD38E98D33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E414BB9F7F81D1D788CA50CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E45DCA61DCE12B0946C9032 /* iOS */ = {
+		0AA0ACAA575039007A7D626F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9ABA34AC9FDD2F480FFED8DA /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2A1FD3A39DDDBA84AEA476E4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C4DBC5CC0F5CF5AC340FF74E /* Pods-acknowledgements.markdown */,
-				97E8CD70E4685BCA4872403A /* Pods-acknowledgements.plist */,
-				CB5DBA29DD44EEF738A46396 /* Pods-dummy.m */,
-				A8A0F74485439ECAF684923F /* Pods-environment.h */,
-				549F3854E61DEC49BCD924D9 /* Pods-resources.sh */,
-				48DFEAAC14964A89C6C19C48 /* Pods.debug.xcconfig */,
-				814274F04D1E87564E5A00C4 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		46BF0BBD83390D520F4FBE58 /* Pods-rebalanceTests */ = {
-			isa = PBXGroup;
-			children = (
-				A48E4BF64975FEF977F33A13 /* Pods-rebalanceTests-acknowledgements.markdown */,
-				CB31C03DA2D98E1B9EBA22DC /* Pods-rebalanceTests-acknowledgements.plist */,
-				DD782B16A2BA32B02C1597A9 /* Pods-rebalanceTests-dummy.m */,
-				9C999C959CB3D0BB054D62BC /* Pods-rebalanceTests-environment.h */,
-				F4E70B98667944A8FC91CE66 /* Pods-rebalanceTests-resources.sh */,
-				F4FD0A76E4344EB7DDAC8DF1 /* Pods-rebalanceTests.debug.xcconfig */,
-				D454FB1D3A220596EDE791FF /* Pods-rebalanceTests.release.xcconfig */,
-			);
-			name = "Pods-rebalanceTests";
-			path = "Target Support Files/Pods-rebalanceTests";
-			sourceTree = "<group>";
-		};
-		7946563BF89FC65BE87AF51B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				910C57E4D6CEC1ACD2FA7F01 /* Firebase */,
+				0B52CFF3D0A7EF3CA5B309E9 /* Firebase */,
+				F9D095E825E0C34A2392F324 /* SwiftyJSON */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		910C57E4D6CEC1ACD2FA7F01 /* Firebase */ = {
+		0B52CFF3D0A7EF3CA5B309E9 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Firebase;
 			sourceTree = "<group>";
 		};
-		9E061A3225136C828A0445E5 /* Targets Support Files */ = {
+		0EDFFB0131C493B5CAD98B60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2A1FD3A39DDDBA84AEA476E4 /* Pods */,
-				A39F6CCDC66A18AA1AAF0074 /* Pods-rebalance */,
-				46BF0BBD83390D520F4FBE58 /* Pods-rebalanceTests */,
+				63EA4DBC12E21A2D4D75AEC1 /* Foundation.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		9EE61768A67C9EA94523BCE1 /* Frameworks */ = {
+		1EF88A00BF058E3ECCE01546 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E45DCA61DCE12B0946C9032 /* iOS */,
+				F52A55E9CE7B35CE4B5CC6F8 /* Info.plist */,
+				4C393619DA6FC01715D4F45E /* Pods.modulemap */,
+				CC52B60265587984D05A1B0B /* Pods-acknowledgements.markdown */,
+				5E21B80ACC279AF445350FE4 /* Pods-acknowledgements.plist */,
+				7F6800FA64BC8D35A860F4A4 /* Pods-dummy.m */,
+				B9B05AFFACA1DC66359509BF /* Pods-environment.h */,
+				0AFC0F8C218689CF6E678AD3 /* Pods-frameworks.sh */,
+				C252B957317ED6333C5829DC /* Pods-resources.sh */,
+				532CAC8C61C2D9BA582CF876 /* Pods-umbrella.h */,
+				4548BB2BC06EF6C2EF386807 /* Pods.debug.xcconfig */,
+				A4A129A2104A260F96DAE6C9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		4FB0139AE65341704B6BED9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EDFFB0131C493B5CAD98B60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A39F6CCDC66A18AA1AAF0074 /* Pods-rebalance */ = {
+		8F25695C9B7A892C2B2C1EE9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD8B61C8B802F38294509DA7 /* Pods-rebalance-acknowledgements.markdown */,
-				1394653AA8876F8DACCA373A /* Pods-rebalance-acknowledgements.plist */,
-				C2324FA9BAB5AFACA1B6A5D6 /* Pods-rebalance-dummy.m */,
-				012F0C4B991E47CB2EB8F5A5 /* Pods-rebalance-environment.h */,
-				7A474CBEE34175FBC657A732 /* Pods-rebalance-resources.sh */,
-				FF83FF4E4B56B292EACEA637 /* Pods-rebalance.debug.xcconfig */,
-				96979742C44C54CE827B8911 /* Pods-rebalance.release.xcconfig */,
+				1EF88A00BF058E3ECCE01546 /* Pods */,
+				DEAB7C40F69CFC2F8FF2D3DB /* Pods-rebalance */,
+				E7DD9C78DB58FCC9120B9818 /* Pods-rebalanceTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3E2104BD7A1090ADC85D29D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466DF348BDEC116746FC544E /* Pods.framework */,
+				E46BA4C7B33EB42703611666 /* Pods_rebalance.framework */,
+				3BF5F4B269A940D095939B65 /* Pods_rebalanceTests.framework */,
+				3806CA0372E373C889EC486E /* SwiftyJSON.framework */,
+				F0C8A6CCCE026BF2CB7087DA /* SwiftyJSON.framework */,
+				3557223DC4BED1409CEA920F /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09C1DB82F5482BD4436B64A = {
+			isa = PBXGroup;
+			children = (
+				E5BB68F7B6E37A2990FC53B6 /* Podfile */,
+				4FB0139AE65341704B6BED9B /* Frameworks */,
+				0AA0ACAA575039007A7D626F /* Pods */,
+				B3E2104BD7A1090ADC85D29D /* Products */,
+				8F25695C9B7A892C2B2C1EE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E42D1E541003636936D499 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A18524FDA4233F07A1CBABC5 /* Info.plist */,
+				5D69EE49716D4968A97D946F /* Info.plist */,
+				A8E0304EAE4570A48D7CFFDB /* Info.plist */,
+				08E00B28EB029A984D001062 /* Pods-SwiftyJSON.modulemap */,
+				3D531D14A61D9A87ED95092C /* Pods-SwiftyJSON.xcconfig */,
+				E57E229A2D2C4E3E84217832 /* Pods-SwiftyJSON-Private.xcconfig */,
+				D6AC1184AF2515B02FC25706 /* Pods-SwiftyJSON-dummy.m */,
+				F55F34E77DA30C2C66818E31 /* Pods-SwiftyJSON-prefix.pch */,
+				2604FF38013E3CED0023FB33 /* Pods-SwiftyJSON-umbrella.h */,
+				5494619FA9132F4690B6880F /* Pods-rebalance-SwiftyJSON.modulemap */,
+				4E490E7D252D19B5906666E5 /* Pods-rebalance-SwiftyJSON.xcconfig */,
+				D94D310404624F30BAE5C7E5 /* Pods-rebalance-SwiftyJSON-Private.xcconfig */,
+				673A56E702A2DB98EF76730E /* Pods-rebalance-SwiftyJSON-dummy.m */,
+				E9037D01DFDFF2690D6B1CAE /* Pods-rebalance-SwiftyJSON-prefix.pch */,
+				355758A07D9CAC431C6A9C35 /* Pods-rebalance-SwiftyJSON-umbrella.h */,
+				A768C59AE1DCEBD739B358DA /* Pods-rebalanceTests-SwiftyJSON.modulemap */,
+				65CEF74B91F697637779AC59 /* Pods-rebalanceTests-SwiftyJSON.xcconfig */,
+				F741771FEAD3BA07D8A4E40E /* Pods-rebalanceTests-SwiftyJSON-Private.xcconfig */,
+				BA2580089E2D7DF8834AC4A5 /* Pods-rebalanceTests-SwiftyJSON-dummy.m */,
+				7DE54E24CA57A3095293F647 /* Pods-rebalanceTests-SwiftyJSON-prefix.pch */,
+				9B403152AEBA7AF888DC16C7 /* Pods-rebalanceTests-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		DEAB7C40F69CFC2F8FF2D3DB /* Pods-rebalance */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2F0FA51FAD6B994CC5F73 /* Info.plist */,
+				A33F9141753E573567B05689 /* Pods-rebalance.modulemap */,
+				A72985711BC9710A77F184A3 /* Pods-rebalance-acknowledgements.markdown */,
+				C7C7144C250D8165999960F4 /* Pods-rebalance-acknowledgements.plist */,
+				CBF6F5830D9CE1CCD1006F0F /* Pods-rebalance-dummy.m */,
+				8F6F626754A0BA0D6900ADEA /* Pods-rebalance-environment.h */,
+				8DED2C082E3EB180CE516394 /* Pods-rebalance-frameworks.sh */,
+				E7245D2BCCB86E9BA22AE1E4 /* Pods-rebalance-resources.sh */,
+				8BD070A825532F2DF42C9159 /* Pods-rebalance-umbrella.h */,
+				8B1C396E2F1B4EDEC7321DBA /* Pods-rebalance.debug.xcconfig */,
+				F39D1C35AE4E69C96E6E7853 /* Pods-rebalance.release.xcconfig */,
 			);
 			name = "Pods-rebalance";
 			path = "Target Support Files/Pods-rebalance";
 			sourceTree = "<group>";
 		};
-		D9D9B9DC10DE7BCAAA821575 /* Products */ = {
+		E7DD9C78DB58FCC9120B9818 /* Pods-rebalanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				78FE7873FCA0EF7DB012EA5E /* libPods.a */,
-				9260697BED4C18E3CD3008BE /* libPods-rebalance.a */,
-				C5DED36A6B756715D641F6B1 /* libPods-rebalanceTests.a */,
+				50058F1863F6144D86AF05C4 /* Info.plist */,
+				BB7B442893DCE0992D6EEB0E /* Pods-rebalanceTests.modulemap */,
+				9A7727351D56004ADA01C57C /* Pods-rebalanceTests-acknowledgements.markdown */,
+				1558D76FA90D810A79007881 /* Pods-rebalanceTests-acknowledgements.plist */,
+				16192272FE631AE229CDB85C /* Pods-rebalanceTests-dummy.m */,
+				0A6C868CE57D4962065F0316 /* Pods-rebalanceTests-environment.h */,
+				4DD95B7DB3634BFDD846EB5D /* Pods-rebalanceTests-frameworks.sh */,
+				7295ABB4349EB60CF5827A0F /* Pods-rebalanceTests-resources.sh */,
+				29E035C146F1A9D722BB92AA /* Pods-rebalanceTests-umbrella.h */,
+				D5445150F56611AD1C0084CB /* Pods-rebalanceTests.debug.xcconfig */,
+				CE4C33207FC0D8F090163EDD /* Pods-rebalanceTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-rebalanceTests";
+			path = "Target Support Files/Pods-rebalanceTests";
 			sourceTree = "<group>";
 		};
-		DBBE4C9597EE074757E5E006 = {
+		F9D095E825E0C34A2392F324 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				20B7F1C96D57337E88D1CFD5 /* Podfile */,
-				9EE61768A67C9EA94523BCE1 /* Frameworks */,
-				7946563BF89FC65BE87AF51B /* Pods */,
-				D9D9B9DC10DE7BCAAA821575 /* Products */,
-				9E061A3225136C828A0445E5 /* Targets Support Files */,
+				72084EE1C031E06414E03DED /* SwiftyJSON.swift */,
+				D6E42D1E541003636936D499 /* Support Files */,
 			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6F1774D52CD06C9838E0D4CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF228E80170CB0692458D91 /* Pods-rebalance-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B29C0D819B4DF3904F9AE3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95ACE28F7C577B5BC15F6FF6 /* Pods-rebalanceTests-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADD78113E480713AE875D66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83135060B2BA6AE66BD761BD /* Pods-rebalance-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82E712780A2D577133E9B4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF28DC982AFB71FA077DDFA /* Pods-rebalanceTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1559B4BDA3D89C7CDFE0FA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8058B1845B02FAAECDDEB83 /* Pods-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A761A65FD5EB880D3EA6B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B9A25419B9E78E9E61D3F9 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		52520E7E02F1231CC86D0427 /* Pods-rebalanceTests */ = {
+		7F624492C1A498C3CA8A45AF /* Pods-rebalanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04658980B7FE770B87C33AE6 /* Build configuration list for PBXNativeTarget "Pods-rebalanceTests" */;
+			buildConfigurationList = FB581AE3B051ACB80194D9B5 /* Build configuration list for PBXNativeTarget "Pods-rebalanceTests" */;
 			buildPhases = (
-				1BDCDD8432EA84494BE88BE6 /* Sources */,
-				A786A4CEB9DFFB612773A9C5 /* Frameworks */,
+				95DDCBB488BA5EA7DC9F6BF6 /* Sources */,
+				F0A6A67660582DD38E98D33F /* Frameworks */,
+				B82E712780A2D577133E9B4F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				11A87EAE63D05C895B875CE1 /* PBXTargetDependency */,
 			);
 			name = "Pods-rebalanceTests";
 			productName = "Pods-rebalanceTests";
-			productReference = C5DED36A6B756715D641F6B1 /* libPods-rebalanceTests.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 3BF5F4B269A940D095939B65 /* Pods_rebalanceTests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		9737229F3CA2A6776F4740FF /* Pods */ = {
+		9ECC61FCDBEE96EA5F1E435D /* Pods-rebalance-SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FED9A0440C62DF58F1CFA7AE /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 9B3EEA0953B53FF8EC78D5BA /* Build configuration list for PBXNativeTarget "Pods-rebalance-SwiftyJSON" */;
 			buildPhases = (
-				2F555EF433E0320B2589E2D7 /* Sources */,
-				1DFA34588FA983F39CDA1945 /* Frameworks */,
+				B2037918794CFCC37205BBEB /* Sources */,
+				404D616369F64E029BE96F85 /* Frameworks */,
+				6F1774D52CD06C9838E0D4CE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pods;
-			productName = Pods;
-			productReference = 78FE7873FCA0EF7DB012EA5E /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "Pods-rebalance-SwiftyJSON";
+			productName = "Pods-rebalance-SwiftyJSON";
+			productReference = F0C8A6CCCE026BF2CB7087DA /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		E66688AF224A6B45529622D3 /* Pods-rebalance */ = {
+		B2540C3B6BE12F61AD6AB396 /* Pods-SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97813204F4B5283264CB01B8 /* Build configuration list for PBXNativeTarget "Pods-rebalance" */;
+			buildConfigurationList = 15681827BDE84A1D9F45B176 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJSON" */;
 			buildPhases = (
-				52F9B4962D29F9D2AA7E9FED /* Sources */,
-				91BB7099E278FCFCD3B8A676 /* Frameworks */,
+				E67F1688363A85AEEE3C4D55 /* Sources */,
+				ECC8AA730BAD8FBCCC45BFD1 /* Frameworks */,
+				E1559B4BDA3D89C7CDFE0FA2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "Pods-SwiftyJSON";
+			productName = "Pods-SwiftyJSON";
+			productReference = 3557223DC4BED1409CEA920F /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8E9685FE53388E4DEAFC61A /* Pods-rebalance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B817B40733F5DDD224236373 /* Build configuration list for PBXNativeTarget "Pods-rebalance" */;
+			buildPhases = (
+				A5C60635EDEB1382170BFA22 /* Sources */,
+				92FC2986A5E0E2EB6FAB02F2 /* Frameworks */,
+				9ADD78113E480713AE875D66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F900C54F9D9B29C6507A12 /* PBXTargetDependency */,
 			);
 			name = "Pods-rebalance";
 			productName = "Pods-rebalance";
-			productReference = 9260697BED4C18E3CD3008BE /* libPods-rebalance.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = E46BA4C7B33EB42703611666 /* Pods_rebalance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4A271983643DEA0113A3219 /* Pods-rebalanceTests-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AACF349E62AE46C2B6471B /* Build configuration list for PBXNativeTarget "Pods-rebalanceTests-SwiftyJSON" */;
+			buildPhases = (
+				B317414164F652F2CF3ACCE4 /* Sources */,
+				BFBB9F6404FEC7994ED06559 /* Frameworks */,
+				8B29C0D819B4DF3904F9AE3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-rebalanceTests-SwiftyJSON";
+			productName = "Pods-rebalanceTests-SwiftyJSON";
+			productReference = 3806CA0372E373C889EC486E /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3057B11AEDE717913AE5D83 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD34A54E4D8E5BF95BEDBF3 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				492E5394F73A2BE43944ACAC /* Sources */,
+				B392470735764E5BC8D296FA /* Frameworks */,
+				F8A761A65FD5EB880D3EA6B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E861439533B1096A0B09FE3B /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 466DF348BDEC116746FC544E /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B2A18089A538F828CB0FA0A5 /* Project object */ = {
+		AF1AA1C6471019A273731DBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = ABA8D45669E798EA94F9DB92 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = FF21721B1D8743A65578F98B /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DBBE4C9597EE074757E5E006;
-			productRefGroup = D9D9B9DC10DE7BCAAA821575 /* Products */;
+			mainGroup = C09C1DB82F5482BD4436B64A;
+			productRefGroup = B3E2104BD7A1090ADC85D29D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9737229F3CA2A6776F4740FF /* Pods */,
-				E66688AF224A6B45529622D3 /* Pods-rebalance */,
-				52520E7E02F1231CC86D0427 /* Pods-rebalanceTests */,
+				F3057B11AEDE717913AE5D83 /* Pods */,
+				B2540C3B6BE12F61AD6AB396 /* Pods-SwiftyJSON */,
+				B8E9685FE53388E4DEAFC61A /* Pods-rebalance */,
+				9ECC61FCDBEE96EA5F1E435D /* Pods-rebalance-SwiftyJSON */,
+				7F624492C1A498C3CA8A45AF /* Pods-rebalanceTests */,
+				D4A271983643DEA0113A3219 /* Pods-rebalanceTests-SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BDCDD8432EA84494BE88BE6 /* Sources */ = {
+		492E5394F73A2BE43944ACAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393CF0000818762874449017 /* Pods-rebalanceTests-dummy.m in Sources */,
+				0ED32E91ABC10E8F816DC6FC /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F555EF433E0320B2589E2D7 /* Sources */ = {
+		95DDCBB488BA5EA7DC9F6BF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D1F669A1B2E06F1E422FE0 /* Pods-dummy.m in Sources */,
+				FECBD2C5D7F5F3AC6CE07236 /* Pods-rebalanceTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52F9B4962D29F9D2AA7E9FED /* Sources */ = {
+		A5C60635EDEB1382170BFA22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEB02384E777147C022800B /* Pods-rebalance-dummy.m in Sources */,
+				A174E9B4E9DB8BDEE55BCBE4 /* Pods-rebalance-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2037918794CFCC37205BBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38884847546400B5B654C4BC /* Pods-rebalance-SwiftyJSON-dummy.m in Sources */,
+				648B327317B229D8B9B4CDFF /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B317414164F652F2CF3ACCE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB777B7298C2C7724DF4F93 /* Pods-rebalanceTests-SwiftyJSON-dummy.m in Sources */,
+				3423A63AA0F0E9AD42F9FACC /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67F1688363A85AEEE3C4D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B1C76420D38ED367EE3835 /* Pods-SwiftyJSON-dummy.m in Sources */,
+				49A237CC5F938502DE92DD15 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		10F900C54F9D9B29C6507A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-rebalance-SwiftyJSON";
+			target = 9ECC61FCDBEE96EA5F1E435D /* Pods-rebalance-SwiftyJSON */;
+			targetProxy = 2A060E097896EA3F1134CE2E /* PBXContainerItemProxy */;
+		};
+		11A87EAE63D05C895B875CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-rebalanceTests-SwiftyJSON";
+			target = D4A271983643DEA0113A3219 /* Pods-rebalanceTests-SwiftyJSON */;
+			targetProxy = 5ACA27D0DBF837FB6959F4F9 /* PBXContainerItemProxy */;
+		};
+		E861439533B1096A0B09FE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftyJSON";
+			target = B2540C3B6BE12F61AD6AB396 /* Pods-SwiftyJSON */;
+			targetProxy = BB0B412096FFE797DCCF656A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		06174CF30300963E98100B9E /* Debug */ = {
+		442A9F21DD76C2894AD4A9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48DFEAAC14964A89C6C19C48 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 4548BB2BC06EF6C2EF386807 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2E89323806A6AE9E20980379 /* Release */ = {
+		4451CA3E9C33424EF790291E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D454FB1D3A220596EDE791FF /* Pods-rebalanceTests.release.xcconfig */;
+			baseConfigurationReference = F39D1C35AE4E69C96E6E7853 /* Pods-rebalance.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalance/Pods-rebalance.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_rebalance;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6B00D75A6844BDDB1D4B694A /* Release */ = {
+		69A99EB37FC564D20B071BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4C33207FC0D8F090163EDD /* Pods-rebalanceTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalanceTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalanceTests/Pods-rebalanceTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_rebalanceTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74FE18A25248BB39EBD3C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94D310404624F30BAE5C7E5 /* Pods-rebalance-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalance-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78ADA7BE80F6A9641A8CFD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1C396E2F1B4EDEC7321DBA /* Pods-rebalance.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalance/Pods-rebalance.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_rebalance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BF90A80E0AD80C001D3DDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94D310404624F30BAE5C7E5 /* Pods-rebalance-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalance-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalance-SwiftyJSON/Pods-rebalance-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82DAD9900093FA93C7FD4AC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +805,36 @@
 			};
 			name = Release;
 		};
-		734979472135150893DDCA69 /* Debug */ = {
+		87887D6A825906B5B05F2A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A129A2104A260F96DAE6C9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90F017B552240ACE2FA31281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,110 +873,213 @@
 			};
 			name = Debug;
 		};
-		7BC2108312A439B2EDFFF104 /* Debug */ = {
+		CBBBBA67D4A7C2E18BA42B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4FD0A76E4344EB7DDAC8DF1 /* Pods-rebalanceTests.debug.xcconfig */;
+			baseConfigurationReference = E57E229A2D2C4E3E84217832 /* Pods-SwiftyJSON-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		86AA1884C60D2579ED90CFB9 /* Release */ = {
+		D42AEA524DEB718ED4935696 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96979742C44C54CE827B8911 /* Pods-rebalance.release.xcconfig */;
+			baseConfigurationReference = F741771FEAD3BA07D8A4E40E /* Pods-rebalanceTests-SwiftyJSON-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalanceTests-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9894E1BD6919A029877AA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57E229A2D2C4E3E84217832 /* Pods-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D9977A9611676E0E9A4FA3B9 /* Release */ = {
+		EFE69D2846FE1D0D4565F5A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 814274F04D1E87564E5A00C4 /* Pods.release.xcconfig */;
+			baseConfigurationReference = F741771FEAD3BA07D8A4E40E /* Pods-rebalanceTests-SwiftyJSON-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalanceTests-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalanceTests-SwiftyJSON/Pods-rebalanceTests-SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		DBFB2FEA81DE8CF2625AC8A4 /* Debug */ = {
+		F3EF0C722CCFC34152FC9BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF83FF4E4B56B292EACEA637 /* Pods-rebalance.debug.xcconfig */;
+			baseConfigurationReference = D5445150F56611AD1C0084CB /* Pods-rebalanceTests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rebalanceTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-rebalanceTests/Pods-rebalanceTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_rebalanceTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04658980B7FE770B87C33AE6 /* Build configuration list for PBXNativeTarget "Pods-rebalanceTests" */ = {
+		12AACF349E62AE46C2B6471B /* Build configuration list for PBXNativeTarget "Pods-rebalanceTests-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BC2108312A439B2EDFFF104 /* Debug */,
-				2E89323806A6AE9E20980379 /* Release */,
+				D42AEA524DEB718ED4935696 /* Debug */,
+				EFE69D2846FE1D0D4565F5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97813204F4B5283264CB01B8 /* Build configuration list for PBXNativeTarget "Pods-rebalance" */ = {
+		15681827BDE84A1D9F45B176 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBFB2FEA81DE8CF2625AC8A4 /* Debug */,
-				86AA1884C60D2579ED90CFB9 /* Release */,
+				CBBBBA67D4A7C2E18BA42B08 /* Debug */,
+				D9894E1BD6919A029877AA41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABA8D45669E798EA94F9DB92 /* Build configuration list for PBXProject "Pods" */ = {
+		6BD34A54E4D8E5BF95BEDBF3 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				734979472135150893DDCA69 /* Debug */,
-				6B00D75A6844BDDB1D4B694A /* Release */,
+				442A9F21DD76C2894AD4A9C9 /* Debug */,
+				87887D6A825906B5B05F2A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FED9A0440C62DF58F1CFA7AE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		9B3EEA0953B53FF8EC78D5BA /* Build configuration list for PBXNativeTarget "Pods-rebalance-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06174CF30300963E98100B9E /* Debug */,
-				D9977A9611676E0E9A4FA3B9 /* Release */,
+				74FE18A25248BB39EBD3C59E /* Debug */,
+				7BF90A80E0AD80C001D3DDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B817B40733F5DDD224236373 /* Build configuration list for PBXNativeTarget "Pods-rebalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ADA7BE80F6A9641A8CFD2E /* Debug */,
+				4451CA3E9C33424EF790291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB581AE3B051ACB80194D9B5 /* Build configuration list for PBXNativeTarget "Pods-rebalanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EF0C722CCFC34152FC9BF2 /* Debug */,
+				69A99EB37FC564D20B071BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF21721B1D8743A65578F98B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F017B552240ACE2FA31281 /* Debug */,
+				82DAD9900093FA93C7FD4AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B2A18089A538F828CB0FA0A5 /* Project object */;
+	rootObject = AF1AA1C6471019A273731DBB /* Project object */;
 }
